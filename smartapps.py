@@ -15,7 +15,7 @@ for item in items:
 
 # 保存ボタン
 if st.button("結果を保存"):
-    target_path = Path(r"C:\temp\checklist.xlsx")
+    target_path = Path(r"C:/Users/haruki.toda/OneDrive - Advantest/checklist.xlsx")
     target_path.parent.mkdir(parents=True, exist_ok=True)
     if not target_path.exists():
         wb = Workbook()
